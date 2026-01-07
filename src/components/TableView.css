@@ -1,0 +1,175 @@
+.table-view-container {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+.table-header-info {
+  padding: 10px 0;
+  font-weight: 600;
+  color: #2C3E50;
+  font-size: 14px;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.type-plan {
+  background: #E3F2FD;
+  color: #4A90E2;
+}
+
+.type-task {
+  background: #E8F5E9;
+  color: #50C878;
+}
+
+.type-job {
+  background: #FFEBEE;
+  color: #FF6B6B;
+}
+
+.cell-desc {
+  font-size: 12px;
+  color: #7F8C8D;
+  margin-top: 4px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.column-filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+}
+
+.filter-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2C3E50;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.column-filter-input {
+  padding: 8px 30px 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  transition: border-color 0.2s ease;
+}
+
+.column-filter-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
+.clear-filter-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #95A5A6;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+  line-height: 1;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.clear-filter-btn:hover {
+  color: #E74C3C;
+}
+
+.clear-all-filters-btn {
+  padding: 8px 16px;
+  background: #E74C3C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+  height: fit-content;
+}
+
+.clear-all-filters-btn:hover {
+  background: #C0392B;
+}
+
+
+/* Override react-data-table-component styles */
+.rdt_Table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rdt_TableHeadRow {
+  background-color: #667eea !important;
+}
+
+.rdt_TableHeadRow .rdt_TableCol {
+  color: white !important;
+  font-weight: bold;
+}
+
+.rdt_TableRow {
+  transition: background-color 0.2s ease;
+}
+
+.rdt_TableRow:hover {
+  background-color: #e9ecef !important;
+}
+
+.rdt_Pagination {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.rdt_Input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.rdt_Input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
