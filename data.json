@@ -1941,7 +1941,7 @@
                 "children": [
                     {
                         "type": "CYCLE",
-                        "name": "CycleO9Daily",
+                        "name": "CycleO9Daily__duplicate",
                         "workspace": "POS/Orchestration/O9/DP",
                         "description": "Orchestrate O9 Daily Cycle\r\n0.2 - added fiscal calendar check and added LTP, trigger file and post SP",
                         "children": [
@@ -2264,7 +2264,7 @@
                 "children": [
                     {
                         "type": "CYCLE",
-                        "name": "CycleO9STPExportsDaily",
+                        "name": "CycleO9STPExportsDaily__duplicate",
                         "workspace": "POS/Orchestration/O9/STP",
                         "description": "Orchestrate O9 STP Daily Cycle",
                         "children": [
@@ -3129,7 +3129,7 @@
                 "children": [
                     {
                         "type": "CYCLE",
-                        "name": "CycleO9Weekly",
+                        "name": "CycleO9Weekly__duplicate",
                         "workspace": "POS/Orchestration/O9",
                         "description": "Orchestrate O9 Daily Cycle\r\n--Change of process Dec 12 2023",
                         "children": [
@@ -5710,7 +5710,7 @@
                 "children": [
                     {
                         "type": "CYCLE",
-                        "name": "CycleE1Nightly",
+                        "name": "CycleE1Nightly__duplicate",
                         "workspace": "JDE/Orchestration/E1/CycleE1Nightly",
                         "description": "Orchestration  E1 Nightly Cycle\r\n\r\n0.1 - Inital Project\r\n1.0 - Add KPI Epic 1\r\n1.1 - Add KPI Epic 2 and 3\r\n1.2 - Add PO and WO\r\n2.0 - Patch 2020-05\r\n3.0 - Denodo Decommission\r\n4.0 - Change to OAuth connection to SF",
                         "children": [
@@ -7269,7 +7269,7 @@
                 "children": [
                     {
                         "type": "CYCLE",
-                        "name": "CycleE1NRT",
+                        "name": "CycleE1NRT__duplicate",
                         "workspace": "JDE/Orchestration/E1/CycleE1NearRealTime",
                         "description": "Orchestrate E1 near real time Cycle",
                         "children": [

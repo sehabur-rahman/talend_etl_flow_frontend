@@ -107,6 +107,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   animation: slideIn 0.3s ease;
+  width: 330px;
 }
 
 @keyframes slideIn {
@@ -125,7 +126,7 @@ body {
   outline: none;
   font-size: 14px;
   padding: 6px 10px;
-  min-width: 250px;
+  width: 300px;
   background: transparent;
   color: #2C3E50;
 }
@@ -260,6 +261,43 @@ body {
   color: #FF6B6B;
 }
 
+.search-modal {
+  position: fixed;
+  top: 65px;
+  right: 230px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 360px;
+  max-height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 1000;
+  animation: slideUp 0.1s ease;
+  color: #000;
+}
+
+.gray-divider {
+  border: 0;
+  height: 1px;
+  background: #e0e0e0; /* Light gray */
+  margin: 0;    /* Space above and below */
+}
+
+.searched-node {
+  border: 1px solid #ccc;
+  margin: 8px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 320px;
+}
+
+.searched-node:hover {
+  background-color: #f3f3f3;
+}
+
+
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
@@ -287,4 +325,6 @@ body {
     margin-top: 20px;
     width: 100%;
   }
+
+
 }
